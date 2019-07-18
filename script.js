@@ -12,7 +12,7 @@
         message.innerHTML =  `${name} you are very smart`
 
     }else if(randomNum === 2) {
-        message.innerHTML =  `${name} you are very intelligence is quit ok`
+        message.innerHTML =  `${name} your intelligence is quit ok`
 
     }else if(randomNum === 3) {
         message.innerHTML =  `${name} you are dumb`
@@ -23,7 +23,7 @@
       
 
     }else if(randomNum === 5) {
-        message.innerHTML =  `${name} you are very smart`
+        message.innerHTML =  `${name} you are really smart`
        
 
     }
@@ -38,5 +38,5 @@
 
 
  addEventListener('click', function() {
-     
+
  })
