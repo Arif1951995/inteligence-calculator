@@ -1,32 +1,19 @@
  let message = document.querySelector('h1');
+let messageArr = [
+    `you are einstine`,
+    `you are very smart`,
+    `your intelligence is quit ok`,
+    `you are dumb`,
+    `you are very dumb`,
+    `you are really smart`
+]
  function emulator(name) {
   
     let randomNum = Math.floor(Math.random() * 6);
     
+    message.innerHTML = `Dear ${name} ${messageArr[randomNum]}`;
+
     
-
-     if(randomNum === 0) {
-       message.innerHTML =  `${name} you are einstine`
-      
-    }else if(randomNum === 1) {
-        message.innerHTML =  `${name} you are very smart`
-
-    }else if(randomNum === 2) {
-        message.innerHTML =  `${name} your intelligence is quit ok`
-
-    }else if(randomNum === 3) {
-        message.innerHTML =  `${name} you are dumb`
-      
-
-    }else if(randomNum === 4) {
-        message.innerHTML =  `${name} you are very  very dumb`
-      
-
-    }else if(randomNum === 5) {
-        message.innerHTML =  `${name} you are really smart`
-       
-
-    }
  }
 
  document.querySelector('button').addEventListener('click', function() {
